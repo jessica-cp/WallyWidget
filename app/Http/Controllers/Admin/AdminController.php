@@ -10,7 +10,9 @@ class AdminController extends Controller
 {
     public function index()
     {
-        return view('site.admin.index');
+        $widgetLists = WidgetPacks::all();
+
+        return view('site.admin.index', compact('widgetLists'));
     }
 
     public function create()

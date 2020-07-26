@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class WidgetPacks extends Model
 {
-    protected $fillable = ['o_of_widgets'];
+    protected $fillable = ['no_of_widgets'];
 }
