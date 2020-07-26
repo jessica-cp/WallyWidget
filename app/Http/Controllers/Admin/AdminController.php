@@ -23,7 +23,8 @@ class AdminController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'no_of_widgets' => 'required'
+            'no_of_widgets' => 'required',
+            'price' => 'required'
         ]);
 
         WidgetPacks::create($request->all());
@@ -41,11 +42,13 @@ class AdminController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'no_of_widgets' => 'required'
+            'no_of_widgets' => 'required',
+            'price' => 'required'
         ]);
 
         $widgetLists = array(
             'no_of_widgets' => $request->no_of_widgets,
+            'price' => $request->price
         );
 
         WidgetPacks::whereId($id)->update($widgetLists);

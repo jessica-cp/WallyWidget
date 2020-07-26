@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-
-    @if ($message = Session::get('success'))
-        <div class="alert alert-success">
-            <p>{{$message}}</p>
-        </div>
-    @endif
-
+    <div class="container">
+        @if ($message = Session::get('success'))
+            <div class="alert alert-success">
+                <p>{{$message}}</p>
+            </div>
+        @endif
+    </div>
     <div class="container">
         <h2>Admin Page</h2>
         <div class="col-12 pb-5">
@@ -29,7 +29,7 @@
                         <tr>
                             <td>{{$widgetList->id}}</td>
                             <td>{{$widgetList->no_of_widgets}}</td>
-                            <td></td>
+                            <td>£{{$widgetList->price}}</td>
                             <td></td>
                             <td>
                                 <form action="{{route('site.admin.destroy', $widgetList->id)}}" method="post">
