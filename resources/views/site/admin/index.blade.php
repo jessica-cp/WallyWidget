@@ -14,6 +14,7 @@
                         <th scope="col">Widget Pack Sizes</th>
                         <th scope="col">Price</th>
                         <th scope="col">Quantity</th>
+                        <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody class="text-body">
@@ -21,6 +22,11 @@
                         <tr>
                             <td>{{$widgetList->id}}</td>
                             <td>{{$widgetList->no_of_widgets}}</td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <a class="btn btn-sm btn-warning" href="{{route('site.admin.edit', $widgetList->id)}}"></a>
+                            </td>
                         </tr>
                     @endforeach
                 </tbody>

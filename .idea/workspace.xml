@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aa41e1b-8716-490d-b901-f846e6b8f7a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/WallyWidget.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WallyWidget.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/admin/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/WidgetPacks.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/WidgetPacks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/admin/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/admin/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +228,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595708058460</updated>
-      <workItem from="1595708060888" duration="22443000" />
+      <workItem from="1595708060888" duration="27459000" />
     </task>
     <servers />
   </component>
@@ -266,10 +260,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="806" height="382" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1595726298092" />
-    <state x="1343" y="637" key="NewPhpFileDialog" timestamp="1595724795860">
+    <state x="1343" y="637" key="NewPhpFileDialog" timestamp="1595780259502">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1343" y="637" key="NewPhpFileDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1595724795860" />
+    <state x="1343" y="637" key="NewPhpFileDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1595780259502" />
     <state x="1661" y="549" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1595711737786">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>

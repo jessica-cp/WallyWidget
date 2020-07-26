@@ -33,5 +33,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function(){
         Route::get('/', 'AdminController@index')->name('site.admin.index');
         Route::get('/create', 'AdminController@create')->name('site.admin.create');
         Route::post('/', 'AdminController@store')->name('site.admin.store');
+        Route::get('/edit/{id}', 'AdminController@edit')->name('site.admin.edit');
+        Route::put('/{id}', 'AdminController@update')->name('site.admin.update');
     });
 });
