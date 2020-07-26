@@ -1,6 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+
+    @if ($message = Session::get('success'))
+        <div class="alert alert-success">
+            <p>{{$message}}</p>
+        </div>
+    @endif
+
     <div class="container">
         <h2>Admin Page</h2>
         <div class="col-12 pb-5">
@@ -25,7 +32,12 @@
                             <td></td>
                             <td></td>
                             <td>
-                                <a class="btn btn-sm btn-warning" href="{{route('site.admin.edit', $widgetList->id)}}"></a>
+                                <form action="{{route('site.admin.destroy', $widgetList->id)}}" method="post">
+                                    <a class="btn btn-sm btn-warning" href="{{route('site.admin.edit', $widgetList->id)}}">Edit</a>
+                                        @method('DELETE')
+                                        @csrf
+                                    <button type="submit" value="delete" class="btn btn-sm btn-danger">Delete</button>
+                                </form>
                             </td>
                         </tr>
                     @endforeach

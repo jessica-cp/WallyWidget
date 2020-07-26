@@ -35,5 +35,6 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function(){
         Route::post('/', 'AdminController@store')->name('site.admin.store');
         Route::get('/edit/{id}', 'AdminController@edit')->name('site.admin.edit');
         Route::put('/{id}', 'AdminController@update')->name('site.admin.update');
+        Route::delete('{id}', 'AdminController@destroy')->name('site.admin.destroy');
     });
 });

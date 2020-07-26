@@ -27,7 +27,8 @@ class AdminController extends Controller
         ]);
 
         WidgetPacks::create($request->all());
-        return redirect()->back()->with('success', 'A pack has been added successfully');
+        return redirect()->route('site.admin.index')
+                        ->with('success', 'A pack has been added successfully');
     }
 
     public function edit($id)
@@ -55,7 +56,7 @@ class AdminController extends Controller
 
     public function destroy($id)
     {
-        $widgetList = WidgetPacks::find('id');
+        $widgetList = WidgetPacks::find($id);
         $widgetList->delete();
 
         return redirect()->route('site.admin.index')
