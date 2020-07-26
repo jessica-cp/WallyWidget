@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8aa41e1b-8716-490d-b901-f846e6b8f7a4" name="Default Changelist" comment="" />
+    <list default="true" id="8aa41e1b-8716-490d-b901-f846e6b8f7a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/WallyWidget.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WallyWidget.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/WidgetPacks.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/WidgetPacks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/admin/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/admin/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/admin/index.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +63,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/WallysWidgets" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -156,6 +168,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fC34ofXaIzbOshOsQxUPfTE3JD" />
@@ -221,7 +234,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595708058460</updated>
-      <workItem from="1595708060888" duration="19178000" />
+      <workItem from="1595708060888" duration="22443000" />
     </task>
     <servers />
   </component>
@@ -265,5 +278,9 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1659" y="466" width="689" height="472" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1595723001092" />
+    <state x="1605" y="332" width="670" height="676" key="search.everywhere.popup" timestamp="1595776067359">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1605" y="332" width="670" height="676" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1595776067359" />
   </component>
 </project>
