@@ -30,7 +30,7 @@
                             <td>{{$widgetList->id}}</td>
                             <td>{{$widgetList->no_of_widgets}}</td>
                             <td>£{{$widgetList->price}}</td>
-                            <td></td>
+                            <td>1</td>
                             <td>
                                 <form action="{{route('site.admin.destroy', $widgetList->id)}}" method="post">
                                     <a class="btn btn-sm btn-warning" href="{{route('site.admin.edit', $widgetList->id)}}">Edit</a>
