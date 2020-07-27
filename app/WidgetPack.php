@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class WidgetPack extends Model
 {
+    public $table = 'widget_packs';
+
     protected $fillable = ['no_of_widgets', 'price'];
 
     protected $dates = ['created_at', 'updated_at'];

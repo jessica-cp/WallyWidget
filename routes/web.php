@@ -21,9 +21,12 @@ Auth::routes();
 
 /**User logged in**/
 
-Route::group(['middlware' => 'auth'], function () {
+Route::group(['middleware' => 'auth'], function () {
     Route::get('/home', 'HomeController@index')->name('home');
-    Route::get('/widget', 'ProductController@index')->name('site.products.index');
+    Route::group(['prefix' => 'widget'], function () {
+        Route::get('/', 'OrderController@index')->name('site.products.index');
+        Route::post('/', 'OrderController@store')->name('site.products.store');
+    });
 });
 
 /**Admin Access**/
