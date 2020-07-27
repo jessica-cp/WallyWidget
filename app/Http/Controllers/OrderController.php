@@ -33,7 +33,7 @@ class OrderController extends Controller
         ]);
 
         return redirect()->route('site.products.index')
-            ->with('success', 'User has bought widgets');
+            ->with('success', 'You have bought widgets');
     }
 
 

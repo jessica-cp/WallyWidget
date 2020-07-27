@@ -10,7 +10,7 @@ class AdminController extends Controller
 {
     public function index()
     {
-        $widgetLists = WidgetPack::all();
+        $widgetLists = WidgetPack::orderBy('created_at', 'asc')->get();
 
         return view('site.admin.index', compact('widgetLists'));
     }
