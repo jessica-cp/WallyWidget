@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aa41e1b-8716-490d-b901-f846e6b8f7a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6622d971-f365-432f-a2e8-e4d3be270f78.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6622d971-f365-432f-a2e8-e4d3be270f78/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/admin/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/products/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/admin/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/admin/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/admin/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/admin/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +234,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595708058460</updated>
       <workItem from="1595708060888" duration="68087000" />
-      <workItem from="1595944829602" duration="13573000" />
+      <workItem from="1595944829602" duration="15047000" />
     </task>
     <servers />
   </component>
@@ -295,10 +286,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1538" y="530" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1595944862445" />
-    <state x="1636" y="488" width="689" height="472" key="find.popup" timestamp="1595958861327">
+    <state x="1636" y="488" width="689" height="472" key="find.popup" timestamp="1595960091961">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1636" y="488" width="689" height="472" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1595958861327" />
+    <state x="1636" y="488" width="689" height="472" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1595960091961" />
     <state x="1605" y="332" width="670" height="676" key="search.everywhere.popup" timestamp="1595946812453">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>

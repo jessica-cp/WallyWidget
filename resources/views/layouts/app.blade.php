@@ -59,6 +59,9 @@
                                     <a class="dropdown-item" href="{{ route('site.admin.index') }}">
                                         {{ __('Dashboard') }}
                                     </a>
+                                    <a class="dropdown-item" href="{{ route('site.products.index', ['userId' => Auth::id()]) }}">
+                                        {{ __('Product') }}
+                                    </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
