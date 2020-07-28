@@ -10,16 +10,16 @@ use Illuminate\Support\Facades\Auth;
 
 class OrderController extends Controller
 {
-    public function index()
+    public function index($userId)
     {
         $widgetLists = WidgetPack::all();
 
-        $widgetOrders = Order::all();
+        $widgetOrders = Auth::user()->order;
 
-        return view('site.products.index', compact('widgetLists', 'widgetOrders'));
+        return view('site.products.index', compact('widgetLists', 'widgetOrders'))->with('id', $userId);
     }
 
-    public function store(Request $request)
+    public function store(Request $request, $userId)
     {
         $user_id = Auth::user()->id;
 
@@ -32,10 +32,8 @@ class OrderController extends Controller
             'total' => $request['total']
         ]);
 
-        return redirect()->route('site.products.index')
+        return redirect()->route('site.products.store', compact('userId'))
+            ->with('id', $userId)
             ->with('success', 'You have bought widgets');
     }
-
-
-
 }

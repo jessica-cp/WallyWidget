@@ -23,21 +23,25 @@ Auth::routes();
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/home', 'HomeController@index')->name('home');
+
+    /**Product Page**/
+
     Route::group(['prefix' => 'widget'], function () {
-        Route::get('/', 'OrderController@index')->name('site.products.index');
-        Route::post('/', 'OrderController@store')->name('site.products.store');
+        Route::get('/{userId}', 'OrderController@index')->name('site.products.index');
+        Route::post('/{userId}', 'OrderController@store')->name('site.products.store');
     });
-});
 
-/**Admin Access**/
+    /**Dashboard Page**/
 
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function(){
-    Route::group(['prefix' => 'dashboard'], function () {
-        Route::get('/', 'AdminController@index')->name('site.admin.index');
-        Route::get('/create', 'AdminController@create')->name('site.admin.create');
-        Route::post('/', 'AdminController@store')->name('site.admin.store');
-        Route::get('/edit/{id}', 'AdminController@edit')->name('site.admin.edit');
-        Route::put('/{id}', 'AdminController@update')->name('site.admin.update');
-        Route::delete('{id}', 'AdminController@destroy')->name('site.admin.destroy');
+    Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function(){
+        Route::group(['prefix' => 'dashboard'], function () {
+            Route::get('/', 'AdminController@index')->name('site.admin.index');
+            Route::get('/create', 'AdminController@create')->name('site.admin.create');
+            Route::post('/', 'AdminController@store')->name('site.admin.store');
+            Route::get('/edit/{id}', 'AdminController@edit')->name('site.admin.edit');
+            Route::put('/{id}', 'AdminController@update')->name('site.admin.update');
+            Route::delete('/{id}', 'AdminController@destroy')->name('site.admin.destroy');
+        });
     });
+
 });

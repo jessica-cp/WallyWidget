@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aa41e1b-8716-490d-b901-f846e6b8f7a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6622d971-f365-432f-a2e8-e4d3be270f78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6622d971-f365-432f-a2e8-e4d3be270f78/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Order.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/products/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -203,12 +213,17 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="@devproductions: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@2bc5eb16" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="@devproductions: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="com.intellij.database.console.session.MessageBusSession@522f478a" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="@devproductions: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@71809c6a" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@49256c18" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -227,7 +242,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595708058460</updated>
-      <workItem from="1595708060888" duration="61515000" />
+      <workItem from="1595708060888" duration="68087000" />
+      <workItem from="1595944829602" duration="13573000" />
     </task>
     <servers />
   </component>
@@ -243,10 +259,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1702" y="308" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1595828395455" />
-    <state x="1622" y="459" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1595871406197">
+    <state x="1622" y="459" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1595953730523">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1622" y="459" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1595871406197" />
+    <state x="1622" y="459" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1595953730523" />
     <state width="885" height="382" key="GridCell.Tab.0.bottom" timestamp="1595828528926">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -275,13 +291,17 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1661" y="549" key="com.intellij.database.view.ui.DbObjectDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1595711737786" />
-    <state x="1636" y="488" width="689" height="472" key="find.popup" timestamp="1595887464104">
+    <state x="1538" y="530" key="com.intellij.ide.util.TipDialog" timestamp="1595944862445">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1636" y="488" width="689" height="472" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1595887464104" />
-    <state x="1605" y="332" width="670" height="676" key="search.everywhere.popup" timestamp="1595776067359">
+    <state x="1538" y="530" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1595944862445" />
+    <state x="1636" y="488" width="689" height="472" key="find.popup" timestamp="1595958861327">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1605" y="332" width="670" height="676" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1595776067359" />
+    <state x="1636" y="488" width="689" height="472" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1595958861327" />
+    <state x="1605" y="332" width="670" height="676" key="search.everywhere.popup" timestamp="1595946812453">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1605" y="332" width="670" height="676" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1595946812453" />
   </component>
 </project>

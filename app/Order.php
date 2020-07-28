@@ -11,4 +11,9 @@ class Order extends Model
     protected $fillable = ['user_id', 'total'];
 
     protected $dates = ['created_at', 'updated_at'];
+
+    public function user()
+    {
+        return $this->belongsTo('App\User', 'id', 'user_id');
+    }
 }

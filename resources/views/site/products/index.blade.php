@@ -14,7 +14,6 @@
                 <table class="table table-striped table-light">
                     <thead class="thead-dark">
                         <tr>
-                            <th scope="col">#</th>
                             <th scope="col">Widget Pack Sizes</th>
                             <th scope="col">Price</th>
                             <th scope="col">Quantity</th>
@@ -23,7 +22,6 @@
                     <tbody class="text-body">
                         @foreach ($widgetLists as $widgetList)
                             <tr>
-                                <td>{{$widgetList->id}}</td>
                                 <td>{{$widgetList->no_of_widgets}}</td>
                                 <td>£{{$widgetList->price}}</td>
                                 <td>1</td>
@@ -33,7 +31,7 @@
                 </table>
             <h2>Please complete the form below:</h2>
             <p>Please type in how many widgets you would like to buy</p>
-            <form action="{{route('site.products.store')}}" method="post">
+            <form action="{{route('site.products.store', ['userId' => Auth::id()])}}" method="post">
                 @csrf
                 {!! Form::input('number', 'total', null, ['min' => '0', 'class' => 'form-control', 'required', 'placeholder' => '0']) !!}
                 <div class="mt-5">
@@ -45,7 +43,6 @@
                 <table class="table table-striped table-light">
                     <thead class="thead-dark">
                         <tr>
-                            <th scope="col">#</th>
                             <th scope="col">No. of widgets submitted</th>
                             <th scope="col">Widget pack size to send</th>
                             <th scope="col">Date</th>
@@ -54,7 +51,6 @@
                     <tbody class="text-body">
                         @foreach($widgetOrders as $widgetOrder)
                             <tr>
-                                <td>{{$widgetOrder->id}}</td>
                                 <td>{{$widgetOrder->total}}</td>
                                 <td>
                                     {{--Less than 250--}}
@@ -95,9 +91,13 @@
                                         {{env('MAX_SECOND_WIDGET_SIZE')}} x 1
                                         <br />
                                         {{env('MAX_FOURTH_WIDGET_SIZE')}} x 1
+                                        {{--Between 1750-2000--}}
                                     @elseif($widgetOrder->total >= env('MIN_EIGHTH_WIDGET_SIZE')
                                             && $widgetOrder->total <= env('MAX_EIGHTH_WIDGET_SIZE'))
                                         {{env('MAX_EIGHTH_WIDGET_SIZE')}} x 1
+                                    @elseif($widgetOrder->total >= env('MIN_NINTH_WIDGET_SIZE')
+                                        && $widgetOrder->total <= env('MAX_NINTH_WIDGET_SIZE'))
+                                        {{env('MAX_NINTH_WIDGET_SIZE')}} x 1
                                     @endif
                                 </td>
                                 <td>{{$widgetOrder->created_at}}</td>

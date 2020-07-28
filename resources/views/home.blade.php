@@ -14,12 +14,13 @@
                         </div>
                     @endif
                     <div class="col-12">
-                        {{ __('You are logged in!') }}
+                        <p>{{ Auth::user()->name }}, you are now logged in</p>
                             <br />
                         {{ __('Please click on the link below to access our widget product page') }}
                     </div>
                     <div class="col-12">
-                        <button class="btn btn-primary main-button" type="submit"><a href="{{route('site.products.index')}}">Product</a></button>
+                        <button class="btn btn-primary main-button" type="submit"><a href="{{route('site.products.index', ['userId' => Auth::id()])}}">Product</a></button>
+
                     </div>
                 </div>
             </div>
